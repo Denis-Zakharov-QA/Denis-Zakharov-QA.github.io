@@ -1,0 +1,83 @@
+style.css
+/* Сброс отступов и коробочной модели */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Базовые шрифты */
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  color: #333;
+  background: #f9f9f9;
+}
+
+/* Контейнер */
+.container {
+  width: 90%;
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 2rem 0;
+}
+
+/* Хедер */
+.hero {
+  background: #4a90e2;
+  color: #fff;
+  text-align: center;
+  padding: 4rem 0;
+}
+.hero .avatar {
+  width: 300px;
+  height: 500px;
+  border-radius: 0%;
+  object-fit: cover;
+  border: 3px solid #fff;
+  margin-bottom: 1rem;
+}
+.hero h1 {
+  font-size: 2.5rem;
+}
+.hero .subtitle {
+  font-size: 1.2rem;
+  opacity: 0.9;
+}
+
+/* Секции */
+section {
+  background: #fff;
+  margin-top: 1rem;
+  padding: 1.5rem;
+  border-radius: 8px;
+}
+section h2 {
+  margin-bottom: 0.75rem;
+  color: #4a90e2;
+}
+.services ul,
+.contacts ul {
+  list-style: none;
+}
+.services li,
+.contacts li {
+  margin-bottom: 0.5rem;
+}
+
+/* Ссылки */
+a {
+  color: #4a90e2;
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: underline;
+}
+
+/* Футер */
+.footer {
+  text-align: center;
+  padding: 1rem 0;
+  font-size: 0.9rem;
+  color: #777;
+}
